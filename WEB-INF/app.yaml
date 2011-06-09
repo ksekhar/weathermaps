@@ -36,3 +36,6 @@ static_files:
    expiration: 365d
  - include: /**/*.css
    expiration: 365d
+
+context_params:
+  rack_env: production

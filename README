@@ -1,4 +1,4 @@
 == Weather Maps
 
-This very very very alpha web app with really primitive code uses google maps api and google weather api
+This very very very untested web application uses google maps api and google weather api
 to plot weather conditions on every turn between an origin and destination
