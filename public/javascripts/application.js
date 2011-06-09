@@ -26,14 +26,17 @@ function initialize() {
     if (origin == null) {
       origin = event.latLng;
       addMarker(origin);
+      marker.push(origin);
     } else if (destination == null) {
       destination = event.latLng;
       addMarker(destination);
+      marker.push(destination);
     } else {
       if (waypoints.length < 9) {
         waypoints.push({location: destination, stopover: true});
         destination = event.latLng;
         addMarker(destination);
+        marker.push(destination)
       } else {
         alert("Maximum number of waypoints reached");
       }
