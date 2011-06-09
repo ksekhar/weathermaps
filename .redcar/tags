@@ -1,0 +1,150 @@
+1307643002
+ApplicationController	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/app/controllers/application_controller.rb	class ApplicationController 
+ApplicationHelper	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/app/helpers/application_helper.rb	module ApplicationHelper
+BacktraceCleaner	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/config/initializers/gae_init_patch.rb	  class BacktraceCleaner 
+Base	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/vendor/plugins/nulldb/lib/active_record/connection_adapters/nulldb_adapter.rb	class ActiveRecord::Base
+Boot	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/config/boot.rb	  class Boot
+BrowsingTest	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/test/performance/browsing_test.rb	class BrowsingTest 
+Checkpoint	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/vendor/plugins/nulldb/lib/active_record/connection_adapters/nulldb_adapter.rb	  class Checkpoint 
+Employee	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/vendor/plugins/nulldb/spec/nulldb_spec.rb	class Employee 
+FILE_BASE	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/rails2311_appengine.rb	FILE_BASE =
+GemBoot	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/config/boot.rb	  class GemBoot 
+HaveExecuted	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/vendor/plugins/nulldb/lib/nulldb_rspec.rb	  class HaveExecuted
+InfoController	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/app/controllers/rails/info_controller.rb	class Rails::InfoController 
+MOD_FILES	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/rails2311_appengine.rb	MOD_FILES =
+MORE_GEMS	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/rails2311_appengine.rb	MORE_GEMS =
+MapsController	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/app/controllers/maps_controller.rb	class MapsController 
+MeController	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/app/controllers/about/me_controller.rb	class About::MeController 
+NullDB	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/vendor/plugins/nulldb/lib/nulldb_rspec.rb	module NullDB
+NullDBAdapter	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/vendor/plugins/nulldb/lib/active_record/connection_adapters/nulldb_adapter.rb	class ActiveRecord::ConnectionAdapters::NullDBAdapter 
+NullDBAdapter	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/vendor/plugins/nulldb/lib/nulldb_rspec.rb	  NullDBAdapter =
+NullObject	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/vendor/plugins/nulldb/lib/active_record/connection_adapters/nulldb_adapter.rb	  class NullObject
+NullifiedDatabase	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/vendor/plugins/nulldb/lib/nulldb_rspec.rb	module NullDB::RSpec::NullifiedDatabase
+RAILS_GEM_VERSION	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/config/environment.rb	RAILS_GEM_VERSION =
+RAILS_ROOT	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/config/boot.rb	RAILS_ROOT =
+RAILS_ROOT	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/vendor/plugins/nulldb/spec/nulldb_spec.rb	RAILS_ROOT =
+RSpec	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/vendor/plugins/nulldb/lib/nulldb_rspec.rb	  module RSpec
+Rails	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/config/boot.rb	module Rails
+Rails	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/config/initializers/gae_init_patch.rb	module Rails
+SET_CMD	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/rails2311_appengine.rb	SET_CMD =
+Statement	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/vendor/plugins/nulldb/lib/active_record/connection_adapters/nulldb_adapter.rb	  class Statement
+TableDefinition	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/vendor/plugins/nulldb/lib/active_record/connection_adapters/nulldb_adapter.rb	  TableDefinition =
+TestCase	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/test/test_helper.rb	class ActiveSupport::TestCase
+VendorBoot	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/config/boot.rb	  class VendorBoot 
+WeatherRequest	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/app/models/weather_request.rb	class WeatherRequest
+WeatherResponse	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/app/models/weather_response.rb	class WeatherResponse
+WeatherResult	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/app/models/weather_result.rb	class WeatherResult
+adapter_name	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/vendor/plugins/nulldb/lib/active_record/connection_adapters/nulldb_adapter.rb	  def adapter_name
+addMarker	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/public/javascripts/application.js	function addMarker(latlng)
+addText	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/public/javascripts/controls.js	function addText(mode, condition)
+add_fk_constraint	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/vendor/plugins/nulldb/lib/active_record/connection_adapters/nulldb_adapter.rb	  def add_fk_constraint(*args)
+add_gem_filters	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/config/initializers/gae_init_patch.rb	    def add_gem_filters
+add_pk_constraint	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/vendor/plugins/nulldb/lib/active_record/connection_adapters/nulldb_adapter.rb	  def add_pk_constraint(*args)
+boot!	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/config/boot.rb	    def boot!
+booted?	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/config/boot.rb	    def booted?
+calcRoute	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/public/javascripts/application.js	function calcRoute()
+checkpoint!	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/vendor/plugins/nulldb/lib/active_record/connection_adapters/nulldb_adapter.rb	  def checkpoint!
+clearMarkers	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/public/javascripts/application.js	function clearMarkers()
+clearWaypoints	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/public/javascripts/application.js	function clearWaypoints()
+codeForEvent	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/public/javascripts/effects.js	function codeForEvent(options,eventName)
+columns	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/vendor/plugins/nulldb/lib/active_record/connection_adapters/nulldb_adapter.rb	  def columns(table_name, name = nil)
+composite	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/rails2311_appengine.rb	def composite(source, fragment, index = nil, trim = nil)
+content	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/vendor/plugins/nulldb/lib/active_record/connection_adapters/nulldb_adapter.rb	    attr_reader :entry_point, :content
+contextually_nullify_database	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/vendor/plugins/nulldb/lib/nulldb_rspec.rb	  def self.contextually_nullify_database(context)
+copy	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/public/javascripts/prototype.js	function copy(methods, destination, onlyIfAbsent)
+createWrapper	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/public/javascripts/prototype.js	function createWrapper(element, eventName, handler)
+create_table	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/vendor/plugins/nulldb/lib/active_record/connection_adapters/nulldb_adapter.rb	  def create_table(table_name, options = {})
+current_conditions	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/app/models/weather_response.rb	  attr_accessor :response, :current_conditions, :forecast_conditions, :lat, :long
+delete	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/vendor/plugins/nulldb/lib/active_record/connection_adapters/nulldb_adapter.rb	  def delete(statement, name=nil)
+description	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/vendor/plugins/nulldb/lib/nulldb_rspec.rb	    def description
+destroyCache	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/public/javascripts/prototype.js	function destroyCache()
+destroyWrapper	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/public/javascripts/prototype.js	function destroyWrapper(id, eventName, handler)
+dispatch	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/public/javascripts/effects.js	function dispatch(effect, eventName)
+download_file	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/rails2311_appengine.rb	def download_file(path, url)
+entry_point	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/vendor/plugins/nulldb/lib/active_record/connection_adapters/nulldb_adapter.rb	    attr_reader :entry_point, :content
+entry_point	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/vendor/plugins/nulldb/lib/active_record/connection_adapters/nulldb_adapter.rb	  def entry_point
+execute	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/vendor/plugins/nulldb/lib/active_record/connection_adapters/nulldb_adapter.rb	  def execute(statement, name = nil)
+execution_log	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/vendor/plugins/nulldb/lib/active_record/connection_adapters/nulldb_adapter.rb	  def execution_log
+execution_log_since_checkpoint	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/vendor/plugins/nulldb/lib/active_record/connection_adapters/nulldb_adapter.rb	  def execution_log_since_checkpoint
+extend	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/public/javascripts/prototype.js	function extend(tagName)
+failure_message	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/vendor/plugins/nulldb/lib/nulldb_rspec.rb	    def failure_message
+fallback	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/public/javascripts/controls.js	function fallback(name, expr)
+findDOMClass	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/public/javascripts/prototype.js	function findDOMClass(tagName)
+findWrapper	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/public/javascripts/prototype.js	function findWrapper(id, eventName, handler)
+fireContentLoadedEvent	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/public/javascripts/prototype.js	function fireContentLoadedEvent()
+forecast_conditions	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/app/models/weather_response.rb	  attr_accessor :response, :current_conditions, :forecast_conditions, :lat, :long
+gem_version	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/config/boot.rb	      def gem_version
+getCacheForID	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/public/javascripts/prototype.js	function getCacheForID(id)
+getDOMEventName	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/public/javascripts/prototype.js	function getDOMEventName(eventName)
+getEventID	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/public/javascripts/prototype.js	function getEventID(element)
+getWrappersForEventName	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/public/javascripts/prototype.js	function getWrappersForEventName(id, eventName)
+get_weather	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/app/controllers/maps_controller.rb	  def get_weather
+get_weather	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/app/models/weather_request.rb	  def get_weather(lat_lon)
+globally_nullify_database	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/vendor/plugins/nulldb/lib/nulldb_rspec.rb	  def self.globally_nullify_database
+have_executed	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/vendor/plugins/nulldb/lib/nulldb_rspec.rb	  def have_executed(entry_point)
+host	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/app/models/weather_request.rb	  attr_accessor :url, :host
+icon	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/app/models/weather_response.rb	  def icon(lat,long)
+included	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/vendor/plugins/nulldb/lib/nulldb_rspec.rb	  def self.included(other)
+index	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/app/controllers/about/me_controller.rb	  def index
+initialize	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/app/models/weather_request.rb	  def initialize
+initialize	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/app/models/weather_response.rb	  def initialize(response)
+initialize	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/app/models/weather_result.rb	  def initialize(lat_lon_list)
+initialize	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/public/javascripts/application.js	function initialize()
+initialize	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/vendor/plugins/nulldb/lib/active_record/connection_adapters/nulldb_adapter.rb	    def initialize
+initialize	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/vendor/plugins/nulldb/lib/active_record/connection_adapters/nulldb_adapter.rb	    def initialize(entry_point, content = "")
+initialize	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/vendor/plugins/nulldb/lib/active_record/connection_adapters/nulldb_adapter.rb	  def initialize(config={})
+initialize	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/vendor/plugins/nulldb/lib/nulldb_rspec.rb	    def initialize(entry_point)
+insert	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/vendor/plugins/nulldb/lib/active_record/connection_adapters/nulldb_adapter.rb	  def insert(statement, name, primary_key, object_id, sequence_name)
+insinuate_into_spec	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/vendor/plugins/nulldb/lib/active_record/connection_adapters/nulldb_adapter.rb	  def self.insinuate_into_spec(config)
+iter	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/public/javascripts/prototype.js	function iter(name)
+klass	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/public/javascripts/prototype.js	function klass()
+lat	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/app/models/weather_response.rb	  attr_accessor :response, :current_conditions, :forecast_conditions, :lat, :long
+lat_lon_list	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/app/models/weather_result.rb	  attr_accessor :weather_request, :weather_response, :lat_lon_list, :weather_lat_lon
+load_initializer	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/config/boot.rb	    def load_initializer
+load_initializer	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/config/boot.rb	    def load_initializer
+load_rails_gem	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/config/boot.rb	    def load_rails_gem
+load_rubygems	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/config/boot.rb	      def load_rubygems
+load_weather	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/app/controllers/maps_controller.rb	  def load_weather
+long	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/app/models/weather_response.rb	  attr_accessor :response, :current_conditions, :forecast_conditions, :lat, :long
+matches?	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/vendor/plugins/nulldb/lib/nulldb_rspec.rb	    def matches?(connection)
+method_missing	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/vendor/plugins/nulldb/lib/active_record/connection_adapters/nulldb_adapter.rb	    def method_missing(*args, &block)
+negative_failure_message	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/vendor/plugins/nulldb/lib/nulldb_rspec.rb	    def negative_failure_message
+next_unique_id	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/vendor/plugins/nulldb/lib/active_record/connection_adapters/nulldb_adapter.rb	  def next_unique_id
+nulldb_connection	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/vendor/plugins/nulldb/lib/active_record/connection_adapters/nulldb_adapter.rb	  def self.nulldb_connection(config)
+nullify_database	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/vendor/plugins/nulldb/lib/nulldb_rspec.rb	  def self.nullify_database(receiver)
+on_save_finished	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/vendor/plugins/nulldb/spec/nulldb_spec.rb	  def on_save_finished
+parseColor	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/public/javascripts/effects.js	function parseColor(color)
+parse_gem_version	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/config/boot.rb	      def parse_gem_version(text)
+pick_boot	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/config/boot.rb	    def pick_boot
+preinitialize	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/config/boot.rb	    def preinitialize
+preinitializer_path	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/config/boot.rb	    def preinitializer_path
+process_result	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/app/models/weather_result.rb	  def process_result
+process_weather	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/app/models/weather_result.rb	  def process_weather
+properties	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/app/controllers/rails/info_controller.rb	  def properties
+read_environment_rb	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/config/boot.rb	        def read_environment_rb
+reset	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/public/javascripts/application.js	function reset()
+response	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/app/models/weather_response.rb	  attr_accessor :response, :current_conditions, :forecast_conditions, :lat, :long
+rubygems_version	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/config/boot.rb	      def rubygems_version
+run	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/config/boot.rb	    def run
+select	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/vendor/plugins/nulldb/lib/active_record/connection_adapters/nulldb_adapter.rb	  def select(statement, name)
+select_all	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/vendor/plugins/nulldb/lib/active_record/connection_adapters/nulldb_adapter.rb	  def select_all(statement, name=nil)
+select_one	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/vendor/plugins/nulldb/lib/active_record/connection_adapters/nulldb_adapter.rb	  def select_one(statement, name=nil)
+select_value	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/vendor/plugins/nulldb/lib/active_record/connection_adapters/nulldb_adapter.rb	  def select_value(statement, name=nil)
+should_contain_statement	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/vendor/plugins/nulldb/spec/nulldb_spec.rb	  def should_contain_statement(cxn, entry_point)
+should_have_column	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/vendor/plugins/nulldb/spec/nulldb_spec.rb	  def should_have_column(klass, col_name, col_type)
+should_not_contain_statement	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/vendor/plugins/nulldb/spec/nulldb_spec.rb	  def should_not_contain_statement(cxn, entry_point)
+show	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/app/controllers/maps_controller.rb	  def show
+stripAlpha	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/public/javascripts/prototype.js	function stripAlpha(filter)
+supports_migrations?	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/vendor/plugins/nulldb/lib/active_record/connection_adapters/nulldb_adapter.rb	  def supports_migrations?
+tables	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/vendor/plugins/nulldb/lib/active_record/connection_adapters/nulldb_adapter.rb	  def tables
+test_homepage	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/test/performance/browsing_test.rb	  def test_homepage
+toQueryPair	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/public/javascripts/prototype.js	function toQueryPair(key, value)
+update	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/vendor/plugins/nulldb/lib/active_record/connection_adapters/nulldb_adapter.rb	  def update(statement, name=nil)
+updateMode	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/public/javascripts/application.js	function updateMode()
+url	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/app/models/weather_request.rb	  attr_accessor :url, :host
+vendor_rails?	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/config/boot.rb	    def vendor_rails?
+weather_lat_lon	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/app/models/weather_result.rb	  attr_accessor :weather_request, :weather_response, :lat_lon_list, :weather_lat_lon
+weather_request	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/app/models/weather_result.rb	  attr_accessor :weather_request, :weather_response, :lat_lon_list, :weather_lat_lon
+weather_response	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/app/models/weather_result.rb	  attr_accessor :weather_request, :weather_response, :lat_lon_list, :weather_lat_lon
+with_entry_point	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/vendor/plugins/nulldb/lib/active_record/connection_adapters/nulldb_adapter.rb	  def with_entry_point(method)
+with_thread_local_variable	/Users/konurur/Developer/rails_apps/rails3/gweathermaps/vendor/plugins/nulldb/lib/active_record/connection_adapters/nulldb_adapter.rb	  def with_thread_local_variable(name, value)

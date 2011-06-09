@@ -1,0 +1,25 @@
+@lat_lon.each_with_index { |lat_lon,i|
+  page << "var myLatlng_#{i} = new google.maps.LatLng('#{lat_lon.first}','#{lat_lon.last}');"
+  @weather_response.each  do |wr|
+    unless wr.icon(lat_lon.first, lat_lon.last).nil?
+      page << "var licon_#{i} = new google.maps.MarkerImage('http://www.google.com#{wr.icon(lat_lon.first, lat_lon.last)}');"
+    end
+  end
+  page << "var myOptions = {"
+  page << "  zoom: 3,"
+  page << "mapTypeId: google.maps.MapTypeId.ROADMAP,"
+  page << "}"
+  page << "var marker = new google.maps.Marker({"
+  page << "    position: myLatlng_#{i},"
+  page << "    title:'#{lat_lon.join(',')}',"
+  @weather_response.each  do |wr|
+    unless wr.icon(lat_lon.first, lat_lon.last).nil?
+      page << "    icon: licon_#{i},"
+    end
+  end
+  page << "    map: map "
+  page << "});"
+
+  #// To add the marker to the map, call setMap();
+  page << "marker.setMap(map);"
+}
