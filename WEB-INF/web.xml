@@ -32,6 +32,10 @@
     <filter-name>org.jruby.rack.RackFilter</filter-name>
     <url-pattern>/*</url-pattern>
   </filter-mapping>
+  <context-param>
+    <param-name>rack_env</param-name>
+    <param-value>production</param-value>
+  </context-param>
   <listener>
     <listener-class>com.google.appengine.jruby.BusyContextListener</listener-class>
   </listener>
