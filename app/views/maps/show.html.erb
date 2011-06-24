@@ -1,37 +1,27 @@
+<div id="opts_dirs">
+<fieldset id="map_options">
+  <legend>Map Options</legend>
+  <p>
+      <%= label_tag :origin, "Origin:" %>
+      <%= text_field_tag :origin %>
+  </p>
+  <p>
+      <%= label_tag :destination, "Destination:" %>
+      <%= text_field_tag :destination %>
+  </p>
+  <p>
+      <%= check_box_tag :optimize %><%= label_tag :optimize %>
+      <%= check_box_tag :highways, {}, true %> <%= label_tag :avoid_highways %>
+      <%= check_box_tag :tolls, {}, true %><%= label_tag :avoid_tolls %>
+  </p>
+  <p>
+    <%= button_to_function "Get Directions!", "calcRoute();" %>
+    <%= button_to_function "Reset", "reset();" %>
+  </p>
+</fieldset>
+<div id="directionsPanel"></div>
+</div>
 
-<table style="width: 400px">
-    <tr>
-      <td>Origin:</td>
-      <td><%= text_field_tag 'origin' %></td>
-    </tr>
-    <tr>
-      <td>Destination:</td>
-      <td><%= text_field_tag 'destination' %></td>
-    </tr>
-   <tr>
-      <td><input type="checkbox" id="optimize" checked />Optimize</td>
-<!--       <td>
-        <select id="mode" onchange="updateMode()">
-          <option value="bicycling">Bicycling</option>
-          <option value="driving">Driving</option>
-          <option value="walking">Walking</option>
-        </select>
-      </td>
--->
-    </tr>
+<div id="map_canvas"></div>
 
-    <tr>
-      <td><input type="checkbox" id="highways" checked />Avoid highways</td>
-      <td><input type="button" value="Reset" onclick="reset()" /></td>
-    </tr>
-    <tr>
-      <td><input type="checkbox" id="tolls" checked />Avoid tolls</td>
-      <td><input type="button" value="Get Directions!" onclick="calcRoute()" /></td>
-      <td></td>
-    </tr>
-  </table>
-  <div style="position:relative; border: 1px; width: 1024px; height: 400px;">
-    <div id="map_canvas" style="border: 1px solid black; position:absolute; width:1024px; height:400px"></div>
-    <div id="directionsPanel" style="position:absolute; left: 1034px; width:240px; height:400px; overflow: auto"></div>
-    <div style="font-size: 11px;font-family: Courier;position:absolute; width:1024px; height:100px;top:420px;border:1px solid grey; overflow: auto" id="msg">Console</div>
-  </div>
+ <div id="msg">Console</div>

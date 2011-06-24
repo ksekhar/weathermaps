@@ -1,0 +1,32 @@
+html { height: 100% }
+body { height: 100%; margin: 0px; padding: 0px }
+
+#opts_dirs {
+  float:left;
+  font: 80%/1 sans-serif;
+  height: 100%;
+  overflow: auto;
+}
+#map_options {
+  padding: 5px;
+}
+
+#directionsPanel{
+  height: 45%;
+  overflow: auto;
+}
+
+#map_canvas{
+   float: left;
+   width: 60%;
+   height: 60%;
+}
+
+#msg {
+  border: 1px solid grey;
+  float:left;
+  height: 8%;
+  width: 98%;
+  font: 50%/1 sans-serif;
+  overflow: auto;
+}

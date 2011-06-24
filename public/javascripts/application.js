@@ -80,7 +80,7 @@ function calcRoute() {
       destination: destination,
       waypoints: waypoints,
       travelMode: google.maps.DirectionsTravelMode.DRIVING,
-      provideRouteAlternatives: true,
+      provideRouteAlternatives: false,
       //  unitSystem: google.maps.DirectionsUnitSystem.IMPERIAL,
       optimizeWaypoints: document.getElementById('optimize').checked,
       avoidHighways: document.getElementById('highways').checked,
@@ -140,5 +140,6 @@ function reset() {
   directionsDisplay = new google.maps.DirectionsRenderer();
   directionsDisplay.setMap(map);
   directionsDisplay.setPanel(document.getElementById("directionsPanel"));
+  initialize();
 }
 
