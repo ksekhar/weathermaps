@@ -5,7 +5,6 @@ class WeatherResult
   def initialize(lat_lon_list)
     @weather_request = WeatherRequest.new
     @lat_lon_list = lat_lon_list
-    Rails.logger.info(@lat_lon_list.inspect)
   end
 
   def process_result
@@ -29,7 +28,6 @@ class WeatherResult
     @weather_lat_lon.each do |lat_lon|
       response << @weather_request.get_weather(lat_lon)
     end
-    Rails.logger.info response.inspect
     response
   end
 end

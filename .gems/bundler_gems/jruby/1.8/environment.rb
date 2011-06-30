@@ -17,6 +17,8 @@ module Bundler
   ENV["PATH"]     = "#{dir}/../../../../bin:#{ENV["PATH"]}"
   ENV["RUBYOPT"]  = "-r#{file} #{ENV["RUBYOPT"]}"
 
+  $LOAD_PATH.unshift File.expand_path("#{dir}/gems/nokogiri-1.5.0.beta.4-java/bin")
+  $LOAD_PATH.unshift File.expand_path("#{dir}/gems/nokogiri-1.5.0.beta.4-java/lib")
   $LOAD_PATH.unshift File.expand_path("#{dir}/gems/activesupport-2.3.11/lib")
   $LOAD_PATH.unshift File.expand_path("#{dir}/gems/extlib-0.9.15/lib")
   $LOAD_PATH.unshift File.expand_path("#{dir}/gems/rails_appengine-0.0.8/lib")

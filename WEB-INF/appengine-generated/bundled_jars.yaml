@@ -8,3 +8,9 @@
 - jruby-stdlib-1.6.2.jar
 - jopenssl.jar
 - jruby-rack-1.0.5.jar
+- isorelax.jar
+- jing.jar
+- nekodtd.jar
+- nekohtml.jar
+- nokogiri.jar
+- xercesImpl.jar
