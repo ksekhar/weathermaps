@@ -30,3 +30,9 @@ body { height: 100%; margin: 0px; padding: 0px }
   font: 50%/1 sans-serif;
   overflow: auto;
 }
+
+#info {
+  background-color: orange;
+  margin-left: 50%;
+  width: 5%;
+}

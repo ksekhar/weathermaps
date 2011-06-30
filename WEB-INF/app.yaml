@@ -1,5 +1,5 @@
 application: gweathermaps
-version: 1
+version: 2
 runtime: jruby
 
 handlers:

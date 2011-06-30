@@ -99,7 +99,9 @@ function calcRoute() {
       //$('msg').update(response.routes[0].overview_path);
       new Ajax.Updater('msg', "/maps/get_weather",{
         method: "post",
-        parameters: {text: Object.toJSON(turns)}
+        parameters: {text: Object.toJSON(turns)},
+        onLoading: function() { $('info').update("loading...");},
+        onLoaded: function() {$('info').update("");}
       })
       
     }
